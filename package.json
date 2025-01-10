@@ -1,0 +1,22 @@
+{
+  "name": "web-services",
+  "version": "1.0.0",
+  "description": "Classwork for CSE341 Web Services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamberj1986/cse341.git"
+  },
+  "author": "Jeff Lambert",
+  "license": "SEE LICENSE IN readme.md",
+  "bugs": {
+    "url": "https://github.com/lamberj1986/cse341/issues"
+  },
+  "homepage": "https://github.com/lamberj1986/cse341#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
