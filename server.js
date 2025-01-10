@@ -3,7 +3,7 @@ const app = express();
 
 // Route to return a name
 app.get('/', (req, res) => {
-    res.send('John Doe');
+    res.send('Reagan Lambert');
 });
 
 // Start the server
