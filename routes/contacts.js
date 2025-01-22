@@ -1,8 +1,9 @@
 const router = require('express').Router();
-const lesson1Controller = require('../controllers/contacts');
+const contactsController = require('../controllers/contacts');
 
 // Define routes
-router.get('/', lesson1Controller.reaganRoute);
+router.get('/', contactsController.getContacts);
+router.get('/:id', contactsController.getContact);
 
 // Export the routes
 module.exports = router;
