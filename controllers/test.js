@@ -1,9 +1,5 @@
-const Contact = require("../models/contact");
-
-const reaganRoute = (req, res) => {
-    res.send('Reagan Lambert');
-};
-
+const Contact = require("../models/contact")
+ 
 const getContacts = async (req, res) => {
     try {
         const contacts = await Contact.find({});
@@ -12,7 +8,7 @@ const getContacts = async (req, res) => {
         res.status(500).send(err);
     }
 };
-
+ 
 const getContact = async (req, res) => {
     try {
         const contact = await Contact.findById(req.params.id);
@@ -21,9 +17,9 @@ const getContact = async (req, res) => {
         res.status(500).send(err);
     }
 };
-
-module.exports = { 
-    reaganRoute, 
+ 
+module.exports = {
     getContacts,
     getContact
-};
+}
+ 
